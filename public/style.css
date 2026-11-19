@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    width: 220px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+}
+
+aside h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+aside a {
+    display: block;
+    padding: 12px;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+aside a:hover {
+    background-color: #e8eef8;
+    color: #436ba3;
+}
+
+main {
+    margin-left: 220px;
+    padding: 30px;
+}
+
+main > h1 {
+    margin-bottom: 5px;
+}
+
+main > p {
+    margin-top: 0;
+    color: #666;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #436ba3;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #436ba3;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #345886;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #436ba3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.btn-edit,
+.btn-hapus {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin: 2px;
+}
+
+.btn-edit {
+    background-color: #436ba3;
+}
+
+.btn-edit:hover {
+    background-color: #345886;
+}
+
+.btn-hapus {
+    background-color: #4d4b4b;
+}
+
+.btn-hapus:hover {
+    background-color: #4d4b4b;
+}
